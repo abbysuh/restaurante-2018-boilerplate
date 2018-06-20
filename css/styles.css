@@ -24,6 +24,7 @@ body {
     margin-bottom:20px;
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
+    font-weight: 700;
 }
 
 .navbar-brand h1 {
@@ -31,6 +32,7 @@ body {
   font-size: 30px;
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
+  color: #ffffff;
 }
 
 .navbar {
@@ -44,7 +46,18 @@ body {
     color: #ffffff;
 }
 
-#home-section .btn {
+nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #7e063e;
+    background-color: transparent;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #55042a;
+    background-color: #7e063e;
+}
+
+.home-hero .btn {
     margin-left: 5px;
     margin-right: 5px;
   }
@@ -64,15 +77,75 @@ body {
     transition: all .15s ease-out;
 }
 
-.about img {
+.about h2 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
 }
 
-#menu {
+.about p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.menu {
   padding-bottom: 15px;
 }
 
+.menu h2 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+}
+
+.menu p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  border: none;
+}
+
+.menu .nav {
+  border: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav-tabs>li>a {
+    border: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #7e063e;
+  }
+
+  a {
+      color: #55042a;
+  }
+
+  a:hover {
+    color: #7e063e;
+  }
+
 footer {
   background-color: #eeeeee;
+}
+
+footer h2 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+}
+
+footer p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 
